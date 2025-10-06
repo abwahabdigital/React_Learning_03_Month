@@ -1,0 +1,117 @@
+h1.main-heading {
+    text-align: center;
+}
+.inner-container {
+    display: flex;
+    justify-content: center;
+}
+.attendance-card {
+    background: #00AB551F;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: system-ui;
+    width: 230px;
+}
+.attendance-card h3 {
+    font-weight: unset;
+}
+.form-slot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.input-slot{
+    height: 50px;
+    width: 450px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e6e6e6;
+    color: #333;
+}
+.input-slot:focus{
+    font-size: 16px;
+    padding-left: 15px;
+}
+input::placeholder {
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: system-ui;
+}
+.myButton{
+    width: 460px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: turquoise;
+    font-family: system-ui;
+}
+.inner-checkin-checkout-section {
+    padding: 10px;
+    border: 1px dashed;
+}
+.section-check-inout-punch {
+    display: flex;
+}
+.inner-container-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.section-check-inout-punch, .timer-checkinout, .button-checkinout, .break-button {
+    width: 100%;
+}
+.inner-checkin-secton, .inner-checkout-secton {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btn-checkin, .btn-checkout {
+    background: purple;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.timer-checkinout {
+    background: #e6e6e6;
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.timer-checkinout p{
+    margin-left: 20px;
+}
+.break-button{
+        background: transparent;
+    color: purple;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid purple;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+.clock {
+    color: purple;
+    font-size: 36px;
+    font-family: Orbitron;
+    letter-spacing: 9px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}

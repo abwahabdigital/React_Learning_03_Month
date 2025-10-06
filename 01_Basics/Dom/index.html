@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dom Manuplation</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="main-heading">Attendance Summary</h1>
+        <div class="inner-container">
+            <div class="attendance-card">
+                <h3>Shifts</h3>
+                <p>03</p>
+            </div>
+            <div class="attendance-card">
+                <h3>Expected Minutes</h3>
+                <p>1440</p>
+            </div>
+            <div class="attendance-card">
+                <h3>Worked Minutes</h3>
+                <p>1487</p>
+            </div>
+            <div class="attendance-card">
+                <h3>Short Minutes</h3>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="form-slot">
+            <input type="text" class="input-slot" placeholder="Enter Total Shifts">
+            <button onclick="attendanceCard" class="myButton">Submit</button>
+        </div>
+        <div class="inner-container-block">
+            <div class="inner-checkin-checkout-section">
+                <div class="section-check-inout-punch">
+                    <div class="inner-checkin-secton">
+                        <p>Check In Time 10.00 AM</p>
+                    </div>
+                    <div class="inner-checkout-secton">
+                        <p>Check Out Time 06.00 PM</p>
+                    </div>
+                </div>
+                <div class="timer-checkinout">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                </div>
+                <div class="button-checkinout">
+                    <button class="btn-checkin">Mark Check In</button>
+                    <button class="btn-checkout">Mark Check OUT</button>
+                </div>
+                <div>
+                    <button class="break-button">Break</button>
+                </div>
+            </div>
+            <div class="inner-checkin-checkout-section">
+                <div class="section-check-inout-punch">
+                    <div class="inner-checkin-secton">
+                        <p>Check In Time 10.00 AM</p>
+                    </div>
+                    <div class="inner-checkout-secton">
+                        <p>Check Out Time 06.00 PM</p>
+                    </div>
+                </div>
+                <div class="timer-checkinout">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                </div>
+                <div class="button-checkinout">
+                    <button class="btn-checkin">Mark Check In</button>
+                    <button class="btn-checkout">Mark Check OUT</button>
+                </div>
+                <div>
+                    <button class="break-button">Break</button>
+                </div>
+            </div>
+            <div class="inner-checkin-checkout-section">
+                <div class="section-check-inout-punch">
+                    <div class="inner-checkin-secton">
+                        <p>Check In Time 10.00 AM</p>
+                    </div>
+                    <div class="inner-checkout-secton">
+                        <p>Check Out Time 06.00 PM</p>
+                    </div>
+                </div>
+                <div class="timer-checkinout">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                </div>
+                <div class="button-checkinout">
+                    <button class="btn-checkin">Mark Check In</button>
+                    <button class="btn-checkout">Mark Check OUT</button>
+                </div>
+                <div>
+                    <button class="break-button">Break</button>
+                </div>
+            </div>
+            <div class="inner-checkin-checkout-section">
+                <div class="section-check-inout-punch">
+                    <div class="inner-checkin-secton">
+                        <p>Check In Time 10.00 AM</p>
+                    </div>
+                    <div class="inner-checkout-secton">
+                        <p>Check Out Time 06.00 PM</p>
+                    </div>
+                </div>
+                <div class="timer-checkinout">
+                   <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                </div>
+                <div class="button-checkinout">
+                    <button class="btn-checkin">Mark Check In</button>
+                    <button class="btn-checkout">Mark Check OUT</button>
+                </div>
+                <div>
+                    <button class="break-button">Break</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="04_Dom.js"></script>
+</body>
+
+</html>

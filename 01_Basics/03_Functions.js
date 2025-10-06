@@ -193,12 +193,12 @@ console.log("***************************");
 //Arrow Function
 
 const name = () => {
-  console.log("My Name is Abdul Wahab")
+  console.log("My Name is Abdul Wahab");
 };
-name()
+name();
 
 //Arrow Function with parameter
 const Fullname = (name) => {
-  console.log("My Name is ",name)
+  console.log("My Name is ", name);
 };
-Fullname("Abdul Wahab Anjum")
+Fullname("Abdul Wahab Anjum");
